@@ -36,5 +36,52 @@ public class Application {
     public Application() {
     }
 
-    // getters and setters
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public User getCandidate() {
+		return candidate;
+	}
+
+	public void setCandidate(User candidate) {
+		this.candidate = candidate;
+	}
+
+	public Job getJob() {
+		return job;
+	}
+
+	public void setJob(Job job) {
+		this.job = job;
+	}
+
+	public String getResumeLink() {
+		return resumeLink;
+	}
+
+	public void setResumeLink(String resumeLink) {
+		this.resumeLink = resumeLink;
+	}
+
+	public ApplicationStatus getStatus() {
+		return status;
+	}
+
+	public void setStatus(ApplicationStatus status) {
+		this.status = status;
+	}
+
+	public LocalDateTime getAppliedDate() {
+		return appliedDate;
+	}
+
+	public void setAppliedDate(LocalDateTime appliedDate) {
+		this.appliedDate = appliedDate;
+	}
+
 }
